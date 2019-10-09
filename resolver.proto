@@ -3,10 +3,10 @@ package dnstun;
 
 import "google/api/annotations.proto";
 
-message ResolveRequest {
-  string Name = 1;
-}
 
+message ResolveRequest {
+  string name = 1;
+}
 
 enum Action {
   ACCEPT = 0;
