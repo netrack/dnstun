@@ -1,0 +1,12 @@
+---
+# Configuration of the continuous integration server.
+language: go
+
+env:
+  - GO111MODULE=on
+
+go:
+  - "1.12.x"
+
+notifications:
+  email: false
